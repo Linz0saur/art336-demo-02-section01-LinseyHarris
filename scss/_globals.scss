@@ -35,8 +35,8 @@ Globals
 }
 
 
-@mixin body-font-bold {
-    font-family: 'Roboto Slab' , georgia, serif;
+@mixin body-font-regular {
+    font-family: 'Roboto Slab', georgia, serif;
     font-style: normal;
     font-weight: 300;
 }

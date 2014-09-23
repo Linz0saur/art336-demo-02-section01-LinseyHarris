@@ -19,6 +19,7 @@ img {
     max-width: 100%;
     //margin: 0;
 }
+//start nav styling
 
 nav {
     background-color: #fff;
@@ -60,5 +61,19 @@ a:hover {
     color: lighten($color,40%);
     @include body-font-bold;
     transition: color 350ms linear;
+}
+
+// End nav styling
+
+h1, h2, h3 {
+    @include headline-font;
+    line-height: 1;
+}
+
+article h1 {
+    color: $color-title;
+    @include fontSize(66px);
+    margin: 48px 0 48px 0;
+    text-transform: capitalize;
 }
 
